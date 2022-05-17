@@ -1,5 +1,5 @@
 :root {
-	--primary-color: #9fc0b0;
+	--primary-color: #9fbfb0;
 	--secondary-color: #292a2b;
 	--tertiary-color: #f1f4f5;
 }
@@ -38,7 +38,7 @@ h1 {
 }
 
 header h1 a {
-	font-size: 36px;
+	font-size: 20px;
 	color: var(--secondary-color);
 	margin: 0;
 	text-decoration: none;
@@ -81,9 +81,7 @@ section {
 	grid-template-columns: 100px 100px;*/
 
 	background-color: var(--primary-color);
-
 	display: flex;
-
 	flex-wrap: wrap;
 	align-items: flex-start;
 	background-attachment: fixed;
@@ -98,11 +96,15 @@ section {
 	line-height: 1.2;
 }
 
+div img {
+	border-radius: 25px;
+}
+
 .picture {
 	position: relative;
 	display: block;
-	border-radius: 13%;
 }
 
 .facts {
+	display: inline-flex;
 }
