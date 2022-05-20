@@ -80,10 +80,6 @@ section {
 .intro {
 	background-color: var(--primary-color);
 	display: flex;
-	flex-wrap: wrap;
-	align-items: flex-start;
-	background-attachment: fixed;
-	background-position: 80%;
 }
 
 .intro p {
@@ -260,3 +256,90 @@ address a {
 	text-decoration: none;
 	color: var(--primary-color);
 }
+
+
+      /*  980 RESPONSIVE  */
+
+@media screen and (max-width: 980px) {
+	header {
+		padding-bottom: 0;
+		justify-content: center;
+	}
+
+	header h1 {
+		width: 100%;
+		text-align: center;
+	}
+
+	header nav ul {
+		margin-top: 20px;
+		width: 100%;
+		justify-content: center;
+	}
+
+	header nav ul li a {
+		font-size: 20px;
+	}
+
+	.intro {
+		display: flex;
+	}
+
+	#previouswork {
+		flex-wrap: wrap;
+	}
+
+	.workcontainer {
+		width: 700px;
+		display: flex;
+		justify-content: center;
+		padding-left: 315px;
+		padding-top: 200px;
+	}
+
+	.comingsoon [
+		padding-top: 25px;
+	]
+}
+
+        /* 768 RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+	section {
+		padding: 30px 15px;
+	}
+
+	.intro p {
+		margin-inline-start: 67px;
+	}
+
+	button {
+		margin-inline-start: 167px;
+	}
+
+	.horiseon {
+		padding-top: 20px;
+	}
+
+	.workcontainer {
+		padding-left: 25px;
+		padding-top: 210px;
+	}
+}
+
+     /* 575 RESPONSIVE */
+@media screen and (max-width: 575px) {
+
+.intro p {
+    margin-inline-start: 37px;
+}
+ 
+button{
+	margin-inline-start: 80px;
+}
+
+.horiseon{
+	margin-inline-start: -67px;
+}
+}
+
