@@ -163,7 +163,7 @@ p {
 	opacity: 1;
 }
 
-.music h4{
+.music h4 {
 	position: absolute;
 	background-color: var(--teritary-color);
 	color: var(--secondary-color);
@@ -178,7 +178,7 @@ p {
 	opacity: 0.7;
 }
 
-.horiseon img {
+.horiseon a img {
 	flex-wrap: wrap;
 	align-items: flex-end;
 	height: 200px;
@@ -228,7 +228,6 @@ p {
 	padding: 4px 4px 4px 4px;
 }
 
-
 .run:hover {
 	opacity: 1;
 }
@@ -250,8 +249,7 @@ address a {
 	color: var(--primary-color);
 }
 
-
-      /*  980 RESPONSIVE  */
+/*  980 RESPONSIVE  */
 
 @media screen and (max-width: 980px) {
 	header {
@@ -290,12 +288,12 @@ address a {
 		padding-top: 200px;
 	}
 
-	.comingsoon [
+	.comingsoon {
 		padding-top: 25px;
-	]
+	}
 }
 
-        /* 768 RESPONSIVE */
+/* 768 RESPONSIVE */
 
 @media screen and (max-width: 768px) {
 	section {
@@ -320,19 +318,17 @@ address a {
 	}
 }
 
-     /* 575 RESPONSIVE */
+/* 575 RESPONSIVE */
 @media screen and (max-width: 575px) {
+	.intro p {
+		margin-inline-start: 37px;
+	}
 
-.intro p {
-    margin-inline-start: 37px;
-}
- 
-button{
-	margin-inline-start: 80px;
-}
+	button {
+		margin-inline-start: 80px;
+	}
 
-.horiseon{
-	margin-inline-start: -67px;
+	.horiseon {
+		margin-inline-start: -67px;
+	}
 }
-}
-
