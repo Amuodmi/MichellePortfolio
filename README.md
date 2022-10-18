@@ -1,6 +1,6 @@
 # Michelle's Portfolio README.md
 
-## Creating a Professional Website for Emmployment Opportunities
+## Creating a Professional Website for Employment Opportunities
 
 Created this website to showcase to employers my skills, past projects, and current ones.  The more I learn, the more I will update this webpage
 in order to keep it current with my skillset.
